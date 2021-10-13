@@ -1,4 +1,7 @@
 export default {
+  server: {
+    port: 3322,
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'kaisoku-nuxt-bridge',
