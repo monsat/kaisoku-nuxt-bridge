@@ -9,6 +9,11 @@ export default {
       kayairo: {
         default: '#c7b183',
       },
+      nuxt2: {
+        dark: '#35495e',
+        default: '#3b8070',
+        lighter: '#41b883',
+      },
       nuxt: {
         dark: '#005834',
         header: '#009a5b',
