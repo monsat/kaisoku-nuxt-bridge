@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "npx nuxi dev",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
@@ -15,7 +15,6 @@
   },
   "devDependencies": {
     "@nuxt/bridge": "npm:@nuxt/bridge-edge",
-    "@nuxtjs/tailwindcss": "^4.2.0",
-    "postcss": "^8.3.5"
+    "nuxt-windicss": "^2.0.1"
   }
 }
