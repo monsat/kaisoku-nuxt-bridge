@@ -1,5 +1,5 @@
 import { Ref } from "vue"
-import { StudyEvent, StudyResult } from '@/types'
+import { StudyEvent } from '@/types'
 import { format } from 'date-fns'
 import ja from 'date-fns/locale/ja/index.js'
 
