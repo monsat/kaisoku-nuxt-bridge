@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { onBeforeMount, ref } from '#app'
-import H2 from '~~/components/The/H2.vue'
 
 const counter = ref(0)
 
@@ -56,5 +55,9 @@ onBeforeMount(async () => {
       <TheH2 icon="⚙️">$fetch: /api/hello</TheH2>
       <div>{{ hello }}</div>
     </div>
+    <LineDivide/>
+    <TheFooter>
+      <BaseNuxtLink to="study">勉強会一覧</BaseNuxtLink>
+    </TheFooter>
   </div>
 </template>
